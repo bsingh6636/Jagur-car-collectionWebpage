@@ -1,0 +1,83 @@
+.vehicles {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.vehicles h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.vehicle-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vehicle-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 300px;
+}
+
+.vehicle-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vehicle-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #ff4747;
+}
+
+.vehicle-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.vehicle-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4747;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vehicle-card button:hover {
+    background-color: #e63e3e;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+}
+.vehicle-list {
+    flex-direction: column;
+}
+
+.vehicle-card {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.modal-content {
+    width: 90%;
+}
+
+.modal-content iframe {
+    height: 200px;
+}

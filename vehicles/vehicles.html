@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaguar Vehicles</title>
+    <link rel="stylesheet" href="../style1.css">
+    <link rel="stylesheet" href="../purchase/purchase.css">
+    <link rel="stylesheet" href="./vehicles.css">
+
+</head>
+
+<body>
+    <section class="NavBarSection">
+        <div class="NavBar">
+            <div class="Logo">
+                <img src="../images/Jaguar-logo.jpg" alt="Jaguar Logo">
+            </div>
+            <ul>
+                <li class="item">
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li class="item">
+                    <a href="../vehicles/vehicles.html">VEHICLES</a>
+                </li>
+                <li class="item">
+                    <a href="../purchase/purchase.html">PURCHASE</a>
+                </li>
+                <li class="item">
+                    <a href="../owners/owners.html">OWNERS</a>
+                </li>
+                <li class="item">
+                    <a href="../explore/explore.html">EXPLORE</a>
+                </li>
+                <li class="item">
+                    <a href="../aboutus/aboutus.html">ABOUT US</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- <section class="home">
+        <div class="box">
+            <div class="box1">
+                <h2>Welcome To Our Website</h2>
+                <p>Money may not buy happiness, But I’d rather cry in a Jaguar than on a bus.</p>
+                <p>Work in Silence and Let your car make the Cheering Noise.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="vehicles" id="vehicles">
+        <h2>Our Jaguar Vehicles</h2>
+        <div class="vehicle-list">
+            <div class="vehicle-card" id="vehicle1">
+                <img src="https://images.cnbctv18.com/wp-content/uploads/2021/06/Jaguar-F-Pace-SVR.jpeg" alt="Jaguar F-PACE">
+                <h3>Jaguar F-PACE</h3>
+                <p>Luxury performance SUV offering practicality and efficiency.</p>
+                <button onclick="showDetails('vehicle1')">View Details</button>
+            </div>
+            <div class="vehicle-card" id="vehicle2">
+                <img src="https://media.production.jlrms.com/styles/hero_crop/s3/2022-05-25/image/cb507206-872a-4460-8a71-1d35dd507271/Jag_E-PACE_22MY_01_R-Dynamic_Black_Exterior_With_Options_Front3Q_190521_001.jpg?VersionId=EXaO9IFeSSouTYVMVycpObrHnZuBEveH&h=a172d1d4&itok=UOksjy8U" alt="Jaguar E-PACE">
+                <h3>Jaguar E-PACE</h3>
+                <p>Jaguar’s first compact SUV is a unique combination of looks, agility and dynamic driving.</p>
+                <button onclick="showDetails('vehicle2')">View Details</button>
+            </div>
+            <div class="vehicle-card" id="vehicle3">
+                <img src="https://images.hindustantimes.com/auto/img/2021/04/21/original/Jag_I-PACE_22MY_Black_Interior_20.04.21_001_1619004465890.jpg" alt="Jaguar I-PACE">
+                <h3>Jaguar I-PACE</h3>
+                <p>Introducing Jaguar's first all-electric performance SUV.</p>
+                <button onclick="showDetails('vehicle3')">View Details</button>
+            </div>
+            <div class="vehicle-card" id="vehicle4">
+                <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20170824050816_JagFTYPESVRConvertibleInter.jpg&w=700&c=1" alt="Jaguar F-TYPE">
+                <h3>Jaguar F-TYPE</h3>
+                <p>Pulse-quickening, pure Jaguar sports car.</p>
+                <button onclick="showDetails('vehicle4')">View Details</button>
+            </div>
+            <div class="vehicle-card" id="vehicle5">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/601bf69187c3e1a86e8ead17/0x0.jpg?format=jpg&crop=3003,1688,x862,y653,safe&height=900&width=1600&fit=bounds" alt="Jaguar XE">
+                <h3>Jaguar XE</h3>
+                <p>The most advanced, efficient and refined sports saloon that Jaguar has ever produced.</p>
+                <button onclick="showDetails('vehicle5')">View Details</button>
+            </div>
+            <div class="vehicle-card" id="vehicle6">
+                <img src="https://di-uploads-pod6.dealerinspire.com/jaguarwestchester/uploads/2020/04/A-2020-Jaguar-XE-driving-down-a-city-street.jpg" alt="Jaguar XF">
+                <h3>Jaguar XF</h3>
+                <p>Luxury business saloon with distinctive design, dynamic drive and state-of-the-art technologies.</p>
+                <button onclick="showDetails('vehicle6')">View Details</button>
+            </div>
+        </div>
+        <div id="vehicleDetailsModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="vehicleTitle"></h2>
+                <p id="vehicleDescription"></p>
+                <iframe id="vehicleVideo" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="./vehicles.js"></script>
+</body>
+
+</html>

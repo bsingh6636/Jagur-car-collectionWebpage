@@ -1,31 +1,55 @@
-.home{
+
+
+.home {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center; /* Center content vertically */
+    /* height: 100vh; */
+     /* Make home section full height of viewport */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the section */
 }
-.box{
-    content:"";
-    height:auto;
-    width:100%;
+
+.box {
+    content: "";
+    width: 100%;
     position: relative;
-    background: url('./images/c4.jfif')no-repeat center center/cover;
+    background: url('https://res.cloudinary.com/bsingh6636/image/upload/v1716823370/page/HD-wallpaper-2016-jaguar-xf-20d-diesel-r-sport-color-ultimate-black-front-car_zjypy5.jpg') no-repeat center center/cover;
     z-index: -1;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure content inside doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
 }
-.box1{
-    height:auto;
-    width:70%;
-    margin-top:35%;
+
+
+.box1 {
+    height: auto;
+    width: 70%;
+    margin-top: 15%; /* Adjusted for better centering */
     margin-left: 15%;
     text-align: center;
-    font-family: cursive;
-    padding:20px;
+    font-family: 'Cursive', sans-serif; /* Fallback for cursive font */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    color: whitesmoke; /* Text color */
+    z-index: 1; /* Ensure text is above background image */
+    backdrop-filter: blur(5px); /* Blurs background for readability */
 }
-.box1 h2{
+
+.box1 h2 {
     font-size: 50px;
-    color: #800606;
+    color: #ff4747; /* Brighter red for better visibility */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
 }
-.box1 p{
+
+.box1 p {
     font-size: 28px;
     font-weight: bold;
-    color:whitesmoke;
+    color: whitesmoke;
+    margin: 10px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
 }

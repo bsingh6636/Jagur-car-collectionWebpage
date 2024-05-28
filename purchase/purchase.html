@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaguar Purchase</title>
+    <link rel="stylesheet" href="../style1.css">
+    <link rel="stylesheet" href="./purchase.css">
+</head>
+
+<body>
+    <section class="NavBarSection">
+        <div class="NavBar">
+            <div class="Logo">
+                <img src="../images/Jaguar-logo.jpg" alt="Jaguar Logo">
+            </div>
+            <ul>
+                <li class="item">
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li class="item">
+                    <a href="../vehicles/vehicles.html">VEHICLES</a>
+                </li>
+                <li class="item">
+                    <a href="../purchase/purchase.html">PURCHASE</a>
+                </li>
+                <li class="item">
+                    <a href="../owners/owners.html">OWNERS</a>
+                </li>
+                <li class="item">
+                    <a href="../explore/explore.html">EXPLORE</a>
+                </li>
+                <li class="item">
+                    <a href="../aboutus/aboutus.html">ABOUT US</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+<!-- 
+    <section class="home">
+        <div class="box">
+            <div class="box1">
+                <h2>Welcome To Our Website</h2>
+                <p>Money may not buy happiness, But I’d rather cry in a Jaguar than on a bus.</p>
+                <p>Work in Silence and Let your car make the Cheering Noise.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="purchase" id="purchase">
+        <h2>Purchase Your Dream Jaguar</h2>
+        <form id="purchaseForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="model">Select Model:</label>
+            <select id="model" name="model" required>
+                <option value="F-PACE">Jaguar F-PACE</option>
+                <option value="E-PACE">Jaguar E-PACE</option>
+                <option value="I-PACE">Jaguar I-PACE</option>
+                <option value="F-TYPE">Jaguar F-TYPE</option>
+                <option value="XE">Jaguar XE</option>
+                <option value="XF">Jaguar XF</option>
+            </select>
+
+            <label for="color">Preferred Color:</label>
+            <input type="text" id="color" name="color" required>
+
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="confirmationMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="./purchase.js"></script>
+</body>
+
+</html>

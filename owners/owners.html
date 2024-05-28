@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaguar Owners</title>
+    <link rel="stylesheet" href="./owners.css">
+    <link rel="stylesheet" href="../style1.css">
+</head>
+
+<body>
+    <section class="NavBarSection">
+        <div class="NavBar">
+            <div class="Logo">
+                <img src="../images/Jaguar-logo.jpg" alt="Jaguar Logo">
+            </div>
+            <ul>
+                <li class="item">
+                    <a href="../index.html">HOME</a>
+                </li>
+                <li class="item">
+                    <a href="../vehicles/vehicles.html">VEHICLES</a>
+                </li>
+                <li class="item">
+                    <a href="../purchase/purchase.html">PURCHASE</a>
+                </li>
+                <li class="item">
+                    <a href="../owners/owners.html">OWNERS</a>
+                </li>
+                <li class="item">
+                    <a href="../explore/explore.html">EXPLORE</a>
+                </li>
+                <li class="item">
+                    <a href="../aboutus/aboutus.html">ABOUT US</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+  
+
+    <!-- <section class="vehicles" id="vehicles">
+        <h2>Our Jaguar Vehicles</h2>
+        <div class="vehicle-list">
+            Vehicle cards as in the previous section
+        </div>
+    </section> -->
+
+    <section class="owners" id="owners">
+        <h2>Jaguar Owners</h2>
+        <div class="owner-list">
+            <div class="owner-card" id="owner1">
+                <img src="https://images.squarespace-cdn.com/content/v1/5f5f7206b084c467b12af216/1627909760802-J48C4UU8LWI21N1HRGP3/Lyons-Mk10.jpg" alt="Owner 1">
+                <h3> William Lyons</h3>
+                <p>Proud owner of a Jaguar F-TYPE.</p>
+                <button onclick="showOwnerDetails('owner1')">View Story</button>
+            </div>
+            <div class="owner-card" id="owner2">
+                <img src="https://www.jaguarheritage.com/jdht/uploads/1923-William-Emily-Walmsley-Blackpool_002_edited-1-300x217.jpg" alt="Owner 2">
+                <h3>William Walmsley</h3>
+                <p>Enjoying the performance of a Jaguar F-PACE.</p>
+                <button onclick="showOwnerDetails('owner2')">View Story</button>
+            </div>
+            <div class="owner-card" id="owner3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDc6BTBfGFfTkTbi-muoYd2p8IdhemXLSzvuitNIdaDw&s" alt="Owner 3">
+                <h3>Adrian Mardell</h3>
+                <p>Thrilled with his Jaguar I-PACE.</p>
+                <button onclick="showOwnerDetails('owner3')">View Story</button>
+            </div>
+        </div>
+        <div id="ownerDetailsModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="ownerTitle"></h2>
+                <p id="ownerDescription"></p>
+                <iframe id="ownerVideo" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+ 
+    <script src="./owners.js"></script>
+</body>
+
+</html>
